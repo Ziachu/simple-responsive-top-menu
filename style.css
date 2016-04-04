@@ -1,0 +1,101 @@
+body {
+	background-color: rgba(197, 21, 51, 1);
+	font-size: 20px;
+	margin: 0;
+	padding: 0;
+}
+
+nav {
+	border: 1px dashed black;
+	margin: 1% auto;
+	width: 90%;
+}
+
+nav ul {
+	height: 2em;
+	line-height: 2em;
+	list-style-type: none;
+	margin: 0;
+	padding: 0;
+	text-align: center;
+}
+
+nav ul a {
+	display: block;
+	color: rgba(0, 0, 0, 1);
+	text-decoration: none;
+	padding: 2% 5%;
+}
+
+nav ul a:hover {
+	color: rgba(0, 0, 0, 0.8);
+}
+
+nav > ul > li {
+	width: 19% !important;
+	margin-left: 1%;
+}
+
+/* first level */
+nav ul > li{
+	background-color: #333;
+}
+
+/* second level */
+nav ul ul > li {
+	background-color: #999;
+}
+
+/* third level */
+nav ul ul > li {
+	background-color: #eee;
+}
+
+nav li {
+	/*display: inline;*/
+	position: relative;
+}
+
+
+
+/*nav > ul li > ul {
+	display: none;
+}
+
+nav > ul li:hover ul > li {
+	display: block;
+}
+
+nav > ul > li > ul > li > ul {
+	display: none;
+}
+
+nav > ul > li:first-child {
+	margin-left: 0;
+}
+
+nav ul ul ul li {
+	background-color: rgba(0, 0, 0, 0.5);
+}
+
+nav ul ul ul {
+	position: relative;
+		left: +100%;
+}
+
+nav ul > li {
+	background-color: rgba(213, 213, 213, 0.3);
+	float: left;
+	width: 100%;
+}
+
+nav ul > li:hover {
+	background-color: rgba(213, 213, 213, 0.5);
+}
+
+@media screen and (max-width: 640px) {
+	nav ul > li {
+		width: 20vw;
+	}
+}
+*/
